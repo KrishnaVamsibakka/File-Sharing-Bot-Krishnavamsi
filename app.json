@@ -1,54 +1,54 @@
 {
-  "name": "File Sharing Premium Bot",
-  "description": "Telegram File Sharing Premium Bot Bot ",
+  "name": "Cartoonworldtelugu™ Files Bot",
+  "description": https://t.me/Cartoonworldtelugu_india ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
-  "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
+  "keywords": ["Cartoonworldtelugu™ Files Bot", "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"],    
   "repository": "https://github.com/JishuDeveloper/File-Sharing-Bot",
-  "success_url": "https://t.me/Madflix_Bots",
+  "success_url": "https://t.me/Cartoonworldtelugu_india",
   "env": {
       "API_ID": {
-          "description": "Your APP ID From my.telegram.org ",
-          "value": "",
+          "description": "",
+          "value": "29055333",
           "required": true
       },
       "API_HASH": {
           "description": "Your API Hash From my.telegram.org ",
-          "value": "",
+          "value": "a6d154242eaef80a163bf5d0a7763882",
           "required": true
       },
       "BOT_TOKEN": {
           "description": "Your Bot Token From @BotFather",
-          "value": "",
+          "value": "7795414140:AAHPYxU-Yc7AJ3KcR-zWZmqFOYd4C_mNItQ",
           "required": true
       },
       "OWNER_ID": {
         "description":"Add Your User ID here",
-        "value": "",
+        "value": "6828129421",
         "required": true
       },
       "CHANNEL_ID": {
           "description":"Make a channel (database channel), then make the bot as admin in channel, and it's id",
-          "value": "",
+          "value": "-1002556802708",
           "required": true          
       },
       "FORCE_SUB_CHANNEL": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
-        "value": "0",
+        "value": "",
         "required": false
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "",
+          "value": "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
           "required": true
       },
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
-          "value": "madflixbotz",
+          "value": "Cartoonworldtelugu",
           "required": false
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
-        "value": "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.",
+        "value": "Hello {mention}\n\nI am File Store bot Created by Vamsi and he can only use me.",
         "required": false
       },
       "FORCE_SUB_MESSAGE": {
@@ -58,7 +58,7 @@
       },
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
-        "value": "",
+        "value": "6828129421",
         "required": false
       },
       "PROTECT_CONTENT": {
@@ -68,7 +68,7 @@
       },
       "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
-        "value": "600",
+        "value": "False",
         "required": false
       }
   },
