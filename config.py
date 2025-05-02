@@ -56,9 +56,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only store files of Cartoonworldtelugu™ !"
+USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only store files of 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 !"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI am File Store bot Created by Vamsi and he can only use me.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI am File Store bot Created by 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 and he can only use me.")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
 
