@@ -3,7 +3,7 @@
   "description": https://t.me/Cartoonworldtelugu_india ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
   "keywords": ["Cartoonworldtelugu™ Files Bot", "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"],    
-  "repository": "https://github.com/JishuDeveloper/File-Sharing-Bot",
+  "repository": "https://github.com/KrishnaVamsibakka/File-Sharing-Bot-Krishnavamsi",
   "success_url": "https://t.me/Cartoonworldtelugu_india",
   "env": {
       "API_ID": {
@@ -43,12 +43,12 @@
       },
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
-          "value": "Cartoonworldtelugu",
+          "value": "Cluster0",
           "required": false
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
-        "value": "Hello {mention}\n\nI am File Store bot Created by Vamsi and he can only use me.",
+        "value": "Hello {mention}\n\nI am File Store bot Created by 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 and he can only use me.",
         "required": false
       },
       "FORCE_SUB_MESSAGE": {
