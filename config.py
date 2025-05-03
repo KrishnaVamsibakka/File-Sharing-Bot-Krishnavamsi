@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7795414140:AAHPYxU-Yc7AJ3KcR-zWZmqFOYd4C_mNItQ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7505322005:AAEiDeVQ2jHJe9eYvZalyMuMo561kMijqyI")
 API_ID = int(os.environ.get("API_ID", "29055333"))
 API_HASH = os.environ.get("API_HASH", "a6d154242eaef80a163bf5d0a7763882")
 
@@ -19,7 +19,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002526508320"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002024495069"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "2400")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -28,7 +28,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6828129421]
+    ADMINS=[6828129421 7889900386]
     for x in (os.environ.get("ADMINS", "6828129421").split()):
         ADMINS.append(int(x))
 except ValueError:
