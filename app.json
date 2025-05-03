@@ -2,7 +2,7 @@
   "name": "Cartoonworldtelugu™ Files Bot",
   "description": https://t.me/Cartoonworldtelugu_india ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
-  "keywords": ["Cartoonworldtelugu™ Files Bot", "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"],    
+  "keywords": ["Cartoonworldtelugu™ Files Bot"],    
   "repository": "https://github.com/KrishnaVamsibakka/File-Sharing-Bot-Krishnavamsi",
   "success_url": "https://t.me/Cartoonworldtelugu_india",
   "env": {
@@ -18,7 +18,7 @@
       },
       "BOT_TOKEN": {
           "description": "Your Bot Token From @BotFather",
-          "value": "7795414140:AAHPYxU-Yc7AJ3KcR-zWZmqFOYd4C_mNItQ",
+          "value": "7505322005:AAEiDeVQ2jHJe9eYvZalyMuMo561kMijqyI",
           "required": true
       },
       "OWNER_ID": {
@@ -34,32 +34,32 @@
       "FORCE_SUB_CHANNEL": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
         "value": "",
-        "required": false
+        "required": true
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "value": "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
           "required": true
       },
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
           "value": "Cluster0",
-          "required": false
+          "required": true
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
         "value": "Hello {mention}\n\nI am File Store bot Created by 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 and he can only use me.",
-        "required": false
+        "required": true
       },
       "FORCE_SUB_MESSAGE": {
         "description": "Optional: Force Sub message of bot, use HTML parsemode format",
         "value": "Hello {mention}\n\n<b>You Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
-        "required": false
+        "required": true
       },
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
-        "value": "6828129421",
-        "required": false
+        "value": "6828129421 7889900386",
+        "required": true
       },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
@@ -68,7 +68,7 @@
       },
       "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
-        "value": "False",
+        "value": "2400",
         "required": false
       }
   },
