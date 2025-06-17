@@ -38,7 +38,7 @@
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "value": "mongodb+srv://anjireddyb98:3qiaVJINXarqFNKp@cluster0.kohnpcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
           "required": true
       },
       "DB_NAME":{ 
