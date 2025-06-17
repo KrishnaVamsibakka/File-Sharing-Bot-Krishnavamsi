@@ -48,7 +48,7 @@
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
-        "value": "Hello {mention}\n\nI am File Store bot Created by 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 and he can only use me.",
+        "value": "𝓗𝓮𝓵𝓵𝓸 {mention}\n\n𝓘 𝓪𝓶 𝓕𝓲𝓵𝓮 𝓢𝓽𝓸𝓻𝓮 𝓫𝓸𝓽 𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 𝓪𝓷𝓭 𝓱𝓮 𝓬𝓪𝓷 𝓸𝓷𝓵𝔂 𝓾𝓼𝓮 𝓶𝓮.",
         "required": true
       },
       "FORCE_SUB_MESSAGE": {
