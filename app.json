@@ -34,7 +34,7 @@
       "FORCE_SUB_CHANNEL": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
         "value": "-1002024495069",
-        "required": false
+        "required": true
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
@@ -44,7 +44,7 @@
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
           "value": "Cluster0",
-          "required": false
+          "required": true
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
@@ -59,7 +59,7 @@
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
         "value": "6828129421",
-        "required": false
+        "required": true
       },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
