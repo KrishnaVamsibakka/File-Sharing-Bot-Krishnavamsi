@@ -7,7 +7,7 @@
   "success_url": "https://t.me/Cartoonworldtelugu_india",
   "env": {
       "API_ID": {
-          "description": "",
+          "description": "Your APP ID From my.telegram.org ",
           "value": "29055333",
           "required": true
       },
