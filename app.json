@@ -1,6 +1,6 @@
 {
   "name": "Cartoonworldtelugu™ Files Bot",
-  "description": https://t.me/Cartoonworldtelugu_india ",
+  "description": https://t.me/Cartoonworldtelugu_india_bot ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
   "keywords": ["Cartoonworldtelugu™ Files Bot"],    
   "repository": "https://github.com/KrishnaVamsibakka/File-Sharing-Bot-Krishnavamsi",
@@ -69,7 +69,7 @@
       "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
         "value": "2400",
-        "required": false
+        "required": true
       }
   },
   "buildpacks": [
