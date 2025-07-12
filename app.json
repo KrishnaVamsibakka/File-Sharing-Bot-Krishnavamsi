@@ -1,6 +1,6 @@
 {
   "name": "Cartoonworldtelugu™ Files Bot",
-  "description": https://t.me/Cartoonworldtelugu_india_bot ",
+  "description": "https://t.me/Cartoonworldtelugu_india_bot ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
   "keywords": ["Cartoonworldtelugu™ Files Bot"],    
   "repository": "https://github.com/KrishnaVamsibakka/File-Sharing-Bot-Krishnavamsi",
@@ -18,7 +18,7 @@
       },
       "BOT_TOKEN": {
           "description": "Your Bot Token From @BotFather",
-          "value": "8144994138:AAEpU2OcPQu4Iq7ChmvtOM4gK2J5bZCK1ZE",
+          "value": "8178307547:AAHx8tkXwi79zmWY3ONk5GOaeV61Dm1i_aM",
           "required": true
       },
       "OWNER_ID": {
