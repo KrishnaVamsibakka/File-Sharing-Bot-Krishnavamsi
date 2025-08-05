@@ -5,69 +5,57 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7961696309:AAGh2s-JaJoetLIMwPjqozsrz_SPjsdn7pA")
-API_ID = int(os.environ.get("API_ID", "29055333"))
-API_HASH = os.environ.get("API_HASH", "a6d154242eaef80a163bf5d0a7763882")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+APP_ID = int(os.environ.get("APP_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6828129421"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Cluster0")
+OWNER = os.environ.get("OWNER", "") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002526508320"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002024495069"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", ""))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "2400")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "8000")
+
+
+PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 
+
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+
 try:
-    ADMINS=[6828129421]
-    for x in (os.environ.get("ADMINS", "6828129421").split()):
+    ADMINS=[7085541484]
+    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 
-
-
-
-
-
-
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
-DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', "True") == "True" else False
+DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
-BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
-
-
-
-
-
-
-
-USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only store files of 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 !"
-
-START_MSG = os.environ.get("START_MESSAGE", "𝓗𝓮𝓵𝓵𝓸 {mention}\n\n𝓘 𝓪𝓶 𝓕𝓲𝓵𝓮 𝓢𝓽𝓸𝓻𝓮 𝓫𝓸𝓽 𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥 𝓪𝓷𝓭 𝓱𝓮 𝓬𝓪𝓷 𝓸𝓷𝓵𝔂 𝓾𝓼𝓮 𝓶𝓮.")
-
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
-
-
-
-
+BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
+USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6828129421)
+ADMINS.append(7085541484)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -95,6 +83,8 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 
-# Telegram Channel @Cartooworldtelugu_india
-# Backup Channel @Cartoonworldtelugu_india
-# Developer @Vamsi_2008_Vamsi
+# Jishu Developer 
+# Don't Remove Credit 🥺
+# Telegram Channel @Madflix_Bots
+# Backup Channel @JishuBotz
+# Developer @JishuDeveloper
