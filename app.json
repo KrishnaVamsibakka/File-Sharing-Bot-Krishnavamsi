@@ -18,7 +18,7 @@
       },
       "BOT_TOKEN": {
           "description": "Your Bot Token From @BotFather",
-          "value": "8072689492:AAFFUCSZufIapvBbgdzX2PSGS8l7a1Jlp8A",
+          "value": "8073055155:AAHz4PZttcgsBJG5Jc_Ufie6wW7PfTdVt-I",
           "required": true
       },
       "OWNER_ID": {
