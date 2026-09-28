@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Cartoonworldtelugu_india_bot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/Cartoonworldtelugu_india'>CWT™</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={6828129421}'>𝐕𝐚𝐦𝐬𝐢 🐦‍🔥</a>",
+            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Cartoonworldtelugu_bot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/Cartoonworldtelugu_india'>CWT™</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={6828129421}'>𝐕𝐚𝐦𝐬𝐢 🐦‍🔥</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
